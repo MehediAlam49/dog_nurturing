@@ -297,3 +297,25 @@ main .team_section .card-text{
   transform: scale(1.1); /* Slight zoom effect */
 }
 /* team section end */
+
+
+/* contact section start */
+main .contact_section {
+  background-image: url(../images/contact_image.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-top: 164px;
+  padding-bottom: 160px;
+}
+main .contact_section .first_p{
+  font-size: 41px;
+  color: #fff;
+  font-weight: 600;
+  padding-top: 20px;
+}
+main .contact_section .second_p{
+  font-size: 37px;
+  color: #fff;
+  font-weight: 700;
+}
+/* contact section end */
