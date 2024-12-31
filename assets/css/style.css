@@ -225,3 +225,36 @@ main .animal_love2 .btn {
   border-radius: 10px;
 }
 /* Animal love section 2 end */
+
+
+/* Service section start */
+main .service_section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #fcc302;
+}
+main .service_section .card {
+  background-color: #fcc302;
+  background-clip: border-box;
+  border: var(--bs-card-border-width) solid var(--bs-card-border-color);
+  border-radius: var(--bs-card-border-radius);
+}
+main .service_section .card-title{
+  font-size: 41px;
+  color: #fff;
+  font-weight: 600;
+  padding: 20px 0px;
+}
+main .service_section .btn{
+  color: #fff;
+  background-color: #00bec9;
+  font-weight: 600;
+  font-size: 25px;
+  padding: 18px 46px;
+  border-radius: 35px;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  -ms-border-radius: 35px;
+  -o-border-radius: 35px;
+}
+/* Service section end */
