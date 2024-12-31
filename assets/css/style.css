@@ -16,53 +16,127 @@ body {
 }
 
 /* Header section start */
-.navbar {
+header .navbar {
   background-color: #daac00;
 }
-.navbar-brand {
+header .navbar-brand {
   display: flex;
   align-items: center;
   color: white;
   text-decoration: none;
 }
-.navbar-brand img {
+header .navbar-brand img {
   width: 80px;
   margin-right: 10px;
 }
-.navbar-brand .brand-text {
+header .navbar-brand .brand-text {
   font-weight: bold;
 }
-.navbar-brand .brand-subtext {
+header .navbar-brand .brand-subtext {
   font-size: 0.8rem;
 }
-.nav-link {
+header .nav-link {
   color: white !important;
   font-weight: bold;
   font-size: 30px;
 }
-.nav-link:hover {
+header .nav-link:hover {
   text-decoration: underline;
 }
-.form-control {
+header .form-control {
   border-radius: 0;
   background-color: #fcc302;
 }
-.form-control::placeholder {
+header .form-control::placeholder {
   color: white;
 }
-.form-control:focus {
+header .form-control:focus {
   background-color: #fcc302;
   box-shadow: none;
 }
-.btn {
+header .btn {
   background-color: #00bec9;
   color: white;
   border: none;
   border-radius: 0;
 }
-.btn:hover {
+header .btn:hover {
   color: white;
   background-color: #0097a7;
 }
 
 /* Header section end */
+
+
+/* Hero section start */
+main .hero_section {
+  background-color: #fcc302;
+  padding-top: 90px;
+  padding-bottom: 114px;
+}
+main .hero_section h1 {
+  font-size: 68px;
+  color: #fff;
+  font-weight: 600;
+}
+main .hero_section p {
+  color: #fff;
+  font-size: 30px;
+}
+main .hero_section .btn {
+  color: #fff;
+  background-color: transparent;
+  font-weight: 600;
+  font-size: 20px;
+  border: 3px solid #fff;
+  border-radius: 5px;
+  padding: 24px 30px;
+}
+main .hero_section .btn:hover {
+  background-color: #00bec9;
+  border: 3px solid #00bec9;
+}
+main .hero_section .btn:focus {
+  outline: none;
+}
+main .hero_section .second_btn {
+  border: 1px solid #fff;
+}
+/* Hero section end */
+
+
+/* Animal love section start */
+main .animal_love {
+  padding: 142px 0px;
+
+}
+main .animal_love h2 {
+  font-size: 50px;
+  color: #313243;
+}
+main .animal_love p {
+  color: #313243;
+  font-weight: 400;
+  font-size: 30px;
+}
+main .animal_love .dog_video{
+  position: relative;
+  z-index: 1;
+}
+main .animal_love .dog_video::after{
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: -20px;
+  width: 40%;
+  height: 40%;
+  background-color: #fcc302;
+  z-index: -1;
+}
+
+main .animal_love .btn {
+  background-color: #fcc302;
+  font-weight: 600;
+  font-size: 20px;
+}
+/* Animal love section end */
