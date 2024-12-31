@@ -184,3 +184,44 @@ main .gallery_section .card-text{
   font-weight: 400;
 }
 /* Gallery Section end */
+
+
+/* Animal love section 2 start */
+main .animal_love2 {
+  padding-top: 142px;
+  padding-bottom: 138px;
+}
+main .animal_love2 h2 {
+  font-size: 50px;
+  color: #313243;
+}
+main .animal_love2 p {
+  color: #313243;
+  font-weight: 400;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+main .animal_love2 .dog_video{
+  position: relative;
+  z-index: 1;
+}
+main .animal_love2 .dog_video::after{
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  right: -20px;
+  width: 40%;
+  height: 40%;
+  background-color: #fcc302;
+  z-index: -1;
+}
+
+main .animal_love2 .btn {
+  background-color: #fcc302;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 27px 30px;
+  border: 0;
+  border-radius: 10px;
+}
+/* Animal love section 2 end */
