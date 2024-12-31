@@ -58,7 +58,11 @@ header .btn {
   background-color: #00bec9;
   color: white;
   border: none;
-  border-radius: 0;
+  border-radius: 10px;
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  -ms-border-radius: 10;
+  -o-border-radius: 10;
 }
 header .btn:hover {
   color: white;
@@ -118,6 +122,7 @@ main .animal_love p {
   color: #313243;
   font-weight: 400;
   font-size: 30px;
+  padding-bottom: 10px;
 }
 main .animal_love .dog_video{
   position: relative;
@@ -135,8 +140,47 @@ main .animal_love .dog_video::after{
 }
 
 main .animal_love .btn {
+    color: #fff;
   background-color: #fcc302;
   font-weight: 600;
   font-size: 20px;
+  padding: 27px 30px;
+  border: 0;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+main .animal_love .btn:hover {
+    color: white;
+  background-color: #0097a7;
 }
 /* Animal love section end */
+
+
+
+/* Gallery Section start */
+main .gallery_section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #fcc302;
+}
+main .gallery_section .card {
+  background-color: #fcc302;
+  background-clip: border-box;
+  border: var(--bs-card-border-width) solid var(--bs-card-border-color);
+  border-radius: var(--bs-card-border-radius);
+}
+main .gallery_section .card-title{
+    padding-top: 40px;
+  font-size: 37px;
+  color: #fff;
+  font-weight: 600;
+}
+main .gallery_section .card-text{
+  font-size: 25px;
+  color: #fff;
+  font-weight: 400;
+}
+/* Gallery Section end */
