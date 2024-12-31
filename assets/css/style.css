@@ -258,3 +258,42 @@ main .service_section .btn{
   -o-border-radius: 35px;
 }
 /* Service section end */
+
+
+/* team section start */
+main .team_section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+main .team_section .card-title{
+  font-size: 30px;
+  color: #313243;
+  font-weight: 700;
+  padding-top: 20px;
+}
+main .team_section .card-text{
+  font-size: 25px;
+  color: #313243;
+  font-weight: 400;
+}
+
+.social-icons a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 25px; /* Icon size */
+  height: 25px; /* Icon size */
+  margin: 0 5px;
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  background-color: #daac00;
+  border-radius: 50%; /* Make icons round */
+  padding: 20px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.social-icons a:hover {
+  background-color: #0097a7;
+  transform: scale(1.1); /* Slight zoom effect */
+}
+/* team section end */
